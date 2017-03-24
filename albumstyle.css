@@ -1,0 +1,20 @@
+body { 
+	background-color: lightblue;
+}
+a {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: underline;
+  }
+a:link {
+	text-shadow: 2px 2px #FF0000;
+   }
+a:visited { 
+ 		color: Red; 
+	} 
+
+h1 {
+    color: navy;
+}
