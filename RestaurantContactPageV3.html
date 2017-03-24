@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	#section1 {
+		background-color: grey; font-size: 20px;
+	}
+	#section2{
+		background-color: grey; font-size: 15px;
+	}
+</style>
+<link href="restaurantStyles1.css" 
+      rel="stylesheet" 
+      type="text/css" />
+</head>
+<body>
+	<header>
+	<h1>Jimmy Johns</h1>
+	</header><hr />
+	<div id="section1">
+	<p><a href="https://www.jimmyjohns.com/">Home</a> <a href="https://www.jimmyjohns.com/menu/#/">Menu</a> <a href="https://www.jimmyjohns.com/contact-us/feedback/">Contact Us</a></p>
+	</div>
+	<div id="section2">
+	<hr />
+	<form action="ContactUs.html" method="POST">
+	<p><strong>Name:</strong> <input name="fstname" size="30" type="text" value="" /></p>
+	<p><strong>Email:</strong> <input name="email" size="30" type="text" value="" /></p>
+	<p>Reason for Inquiry:<select name="Reason">
+	<option value="Catering">Catering</option>
+	<option value="PrvtParty">Private Party</option>
+	<option value="Feedback">Feedback</option>
+	<option value="Other">Other</option>
+	</select></p>
+	<p>Additional Information: <textarea cols="1" name="Additional Information" rows="1"></textarea></p>
+	<p>Have you been to the restaurant?</p>
+	<p><input name="answer" type="radio" value="No" />No<input name="answer" type="radio" value="Yes" />Yes</p>
+	<p>Best days to contact you:</p>
+	<p><input name="mychoices" type="checkbox" value="M" />M <input name="mychoices" type="checkbox" value="T" />T <input name="mychoices" type="checkbox" value="W" />W <input name="mychoices" type="checkbox" value="T" />Th <input name="mychoices" type="checkbox" value="Agree" />F</p>
+	<p><input type="Button" value="Send Request" /></p>
+	</form>
+	</div>
+<hr /><footer>
+<p>11360 Olio Road, Fishers, Indiana, 46037</p>
+<p>317-863-0630</p>
+</footer>
+</body>
+</html>
