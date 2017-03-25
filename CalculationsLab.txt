@@ -1,0 +1,61 @@
+#div1 {
+
+height: 150px;
+
+width: 400px;
+
+margin: 20px;
+
+border: 1px solid red;
+
+padding: 10px;
+
+}
+Calculation Answers
+
+Total Height = 212px
+Margin top 20px
+Border top 1px
+Padding top 10px
+Height of content 150px
+Padding bottom 10px
+Border bottom 1px
+Margin bottom 20px
+
+Total Width= 462px
+Margin Left = 20px
+Border Left = 1px
+Padding Left = 10px
+Width of Content = 400px
+Padding Right = 10px
+Border Right = 1px
+Margin Right = 20px
+
+Browser calculated width= 422px
+Border Left 1px
+Padding Left 10px
+Width of Content 400px
+Padding Right  10px
+Border Right 1px
+
+Browser calculated height= 172px
+Border Top 1px
+Padding Top 10px
+Height of Content 150px
+Padding Bottom  10px
+Border Bottom 1px
+
+
+trying to get the element’s total height, the calculation is: 
+
+margin-top + border-top + padding-top + (height of the content)+ padding-bottom + border-bottom + margin-bottom 
+
+If you are trying to get the element’s total width, the calculation is: 
+
+margin-left + border-left + padding-left + (width of the content)+ padding-right + border-right + margin-right
+
+Browser calculated width: border-left + padding-left + (width of the content)+ padding-right + border-right 
+
+Browser calculated height: border-top + padding-top + (height of the content)+ padding-bottom + border-bottom 
+
+ 
